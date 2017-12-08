@@ -18,6 +18,7 @@ public class Player : MonoBehaviour {
 	{
 		active = true;
 		player = Instantiate(playerCharacterPrefab, PlayerController.GetInstance().spawnPoints[playerIndex].position, Quaternion.identity, transform);
+		Camera.main.GetComponent<CameraFocus>().AddCameraTarget(player.transform);
 	}
 
 	public void RemovePlayer()

@@ -54,5 +54,6 @@ MonoBehaviour:
   active: 0
   alive: 0
   lives: 0
-  playerCharacterPrefab: {fileID: 0}
+  playerCharacterPrefab: {fileID: 1256165097233366, guid: dba8f437421610a40b93f3f6a1f193d3,
+    type: 2}
   playerIndex: 0
